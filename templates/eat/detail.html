@@ -1,0 +1,15 @@
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在哪里吃什么</title>
+	<link rel='stylesheet' href="{% static 'eat/css/detail.css' %}">
+</head>
+<body>
+<div>
+	<h1>吃什么呢：{{ post.name }}</h1>
+	<h1>在哪吃呢：{{ post.area }}</h1>
+</div>
+</body>
+</html>
